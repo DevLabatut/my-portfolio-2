@@ -1,0 +1,110 @@
+.light-theme {
+  background-color: #fafafa;
+  color: #333;
+}
+.light-theme .cc-box,
+.light-theme .dd-boxy22,
+.light-theme .dd-boxx28,
+.light-theme .dd-boxx2855,
+.light-theme .ee-foot-2pss {
+  border: none;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -5px 0px inset;
+}
+.light-theme .cc-titend,
+.light-theme .cc-deskt,
+.light-theme .fa-check-circle,
+.light-theme .cc-bx92,
+.light-theme .cc-pp92c,
+.light-theme .cc-bxy22,
+.light-theme .dd-fc02xx,
+.light-theme .dd-e22mail,
+.light-theme .dd-icmail,
+.light-theme #nome,
+.light-theme #email,
+.light-theme #mensagem,
+.light-theme .ee-copy {
+  color: #333;
+}
+.light-theme #nome,
+.light-theme #email,
+.light-theme #mensagem {
+  border: 1px solid #00000046;
+}
+.light-theme label {
+  background-color: #fafafa;
+  color: #333;
+}
+.light-theme ::placeholder {
+  color: #3333334a;
+}
+.light-theme .dd-boxy22 > p {
+  color: #333;
+}
+
+.light-theme #light {
+  color: white;
+}
+.light-theme .aa-port {
+  color: #333;
+}
+.light-theme .aa-281 {
+  background-color: #fafafa;
+  box-shadow: 0px 0px 5px #0000002e;
+  border: none;
+}
+.light-theme .labatut,
+.light-theme .frontend,
+.light-theme .bb-titu {
+  color: #333;
+}
+.light-theme .bb82,
+.light-theme .botao-contato,
+.light-theme .download-cv,
+.light-theme .dd-demo,
+.light-theme .dd-bott {
+  background-color: #0084ffad;
+  transition: background-color 0.2s;
+}
+.light-theme .bb82:hover,
+.light-theme .botao-contato:hover,
+.light-theme .download-cv:hover,
+.light-theme .dd-demo:hover,
+.light-theme .dd-bott:hover {
+  background-color: #0091ff;
+}
+.light-theme .bb-apai2911,
+.light-theme .bb-p2xx,
+.light-theme .dd-email,
+.light-theme .dd-esc-me,
+.light-theme .dd-rig {
+  color: #757575;
+}
+.light-theme .linha {
+  background-color: #333;
+}
+.light-theme .bb-img72 {
+  background: none;
+}
+.light-theme .dd-fc02xx0pz {
+  color: #333;
+}
+.light-theme .cc-bxy22zz {
+  color: #333;
+}
+@media (max-width: 415px) {
+  .light-theme .cc-bxy22zz {
+    color: #333;
+  }
+  .light-theme .cc-bx92,
+  .light-theme .cc-bxy22,
+  .light-theme .cc-bxy22zz {
+    background-color: white;
+  }
+  .light-theme .cc-box {
+    background: initial;
+    border: initial;
+    box-shadow: initial;
+  }
+}
