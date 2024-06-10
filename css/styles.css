@@ -13,10 +13,6 @@
   cursor: default;
   transition: 0.4s;
 }
-.no-scroll {
-  overflow: hidden;
-}
-
 body {
   background-color: #191919;
   color: white;
@@ -469,7 +465,6 @@ label {
 video {
   width: 700px;
   transition: initial;
-  border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.499) 0px 7px 13px -3px,
     rgba(8, 8, 8, 0.362) 0px -5px 0px inset;
@@ -483,19 +478,15 @@ video {
 .modal-1 {
   display: flex;
   flex-direction: column;
-  border-radius: 20px;
   background-color: #272727;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.499) 0px 7px 13px -3px,
-    rgba(8, 8, 8, 0.362) 0px -5px 0px inset;
   padding: 6px 20px 20px 20px;
+  /* transition: initial; */
 }
 
 .butt-linkz {
   cursor: pointer;
   background-color: #3a3a3a;
   padding: 10px;
-  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -536,8 +527,6 @@ video {
   bottom: 6px;
   left: 20px;
   height: 40px;
-  border-bottom-left-radius: 15px;
-  border-top-right-radius: 20px;
   background-color: #3a3a3a;
   padding: 7px;
   fill: white;

@@ -172,10 +172,6 @@
   }
 }
 @media (max-height: 552px) {
-  /* .popup-2 {
-    height: 100%;
-    width: 100%;
-  } */
 }
 @media (max-width: 415px) {
   #popup-1 {
@@ -191,5 +187,28 @@
 @media (max-width: 270px) {
   .dal-titul {
     font-size: 4vw;
+  }
+}
+
+@media (max-height: 560px) {
+  .modal-1 {
+    max-height: 95vh;
+    height: auto;
+    overflow: auto;
+  }
+  .modal-1::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .modal-1::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .modal-1::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  .modal-1::-webkit-scrollbar-thumb:hover {
+    background: #555;
   }
 }
