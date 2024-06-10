@@ -16,10 +16,18 @@ document.addEventListener("DOMContentLoaded", function () {
     "Validação de Login": "assets/vid/validação-de-login.mp4",
   };
 
+  let currentVideoElement = null;
+
   function showVideo(projectTitle, popup) {
     const videoSource = videoMap[projectTitle];
     if (videoSource) {
-      popup.querySelector("video").src = videoSource;
+      if (currentVideoElement) {
+        currentVideoElement.pause();
+      }
+      const videoElement = popup.querySelector("video");
+      videoElement.src = videoSource;
+      videoElement.load();
+      currentVideoElement = videoElement;
     }
   }
 
@@ -48,6 +56,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         smoothTransition ? 500 : 0
       );
+      if (currentVideoElement) {
+        currentVideoElement.pause();
+        currentVideoElement.src = "";
+      }
     }
     if (action === "block") {
       document.body.classList.add("no-scroll");
