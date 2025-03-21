@@ -84,6 +84,7 @@ body {
   max-width: 1100px;
   margin: 0px auto;
   padding: 0rem 1rem 0rem 1rem;
+  user-select: none;
 }
 .labatut {
   font-size: 49px;
@@ -112,6 +113,7 @@ body {
 }
 .iconez {
   margin: 20px 0px 20px 0px;
+  user-select: none;
 }
 .bb82 {
   font-size: 30px;
@@ -140,6 +142,8 @@ body {
   cursor: pointer;
   font-size: 17px;
   transition: background-color 0.2s;
+
+  user-select: none;
 }
 .download-cv {
   width: 190px;
@@ -193,6 +197,7 @@ body {
   background-color: #54545423;
   width: 400px;
   border-radius: 10px;
+  user-select: none;
 }
 .cc-titend {
   text-align: center;
@@ -255,6 +260,7 @@ body {
   width: 100%;
   cursor: pointer;
   transition: background-color 0.2s;
+  user-select: none;
 }
 .dd-conty2793 {
   display: flex;
@@ -352,6 +358,7 @@ label {
   cursor: pointer;
   width: 100%;
   transition: background-color 0.2s;
+  user-select: none;
 }
 .dd-rig {
   color: #ffffffbd;
@@ -425,6 +432,7 @@ label {
   padding: 5px 5px 0px 5px;
   border: 2px solid #ffffff11;
   border-radius: 10px;
+  user-select: none;
 }
 .popup-1 li a {
   border-radius: 7px;
